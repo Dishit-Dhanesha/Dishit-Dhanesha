@@ -460,7 +460,7 @@
           <button
             v-if="colorPreference == 'light'"
             data-hs-theme-click-value="dark"
-            class="hs-dark-mode flex w-full items-center justify-start gap-2 rounded-lg px-4 py-2 text-center text-sm text-muted transition hover:bg-light dark:hover:bg-dark dark:hover:text-white"
+            class="hs-dark-mode flex w-full items-center justify-start gap-2 rounded-lg px-4 py-2 text-center text-sm text-muted transition hover:bg-light dark:hover:bg-dark hover:text-dark"
             @click="changeColorPreference('dark')"
           >
             <svg
