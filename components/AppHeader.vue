@@ -29,7 +29,9 @@
           <ul
             class="hidden flex-1 flex-wrap items-center justify-center lg:flex"
           >
-            <li class="group/menu-item active">
+            <li
+              :class="`group/menu-item ${activeUrl == 'index' ? 'active' : ''}`"
+            >
               <NuxtLink
                 to="/"
                 class="group inline-flex items-center gap-2 rounded-lg px-3 py-2 text-center text-base font-medium text-muted transition hover:bg-light hover:text-dark group-[.active]/menu-item:bg-light group-[.active]/menu-item:text-dark dark:hover:bg-dark-2 dark:hover:text-white dark:group-[.active]/menu-item:bg-dark-2 dark:group-[.active]/menu-item:text-white"
@@ -52,7 +54,9 @@
                 <span>Home</span>
               </NuxtLink>
             </li>
-            <li class="group/menu-item">
+            <li
+              :class="`group/menu-item ${activeUrl == 'about' ? 'active' : ''}`"
+            >
               <NuxtLink
                 to="/about"
                 class="group inline-flex items-center gap-2 rounded-lg px-3 py-2 text-center text-base font-medium text-muted transition hover:bg-light hover:text-dark group-[.active]/menu-item:bg-light group-[.active]/menu-item:text-dark dark:hover:bg-dark-2 dark:hover:text-white dark:group-[.active]/menu-item:bg-dark-2 dark:group-[.active]/menu-item:text-white"
@@ -78,7 +82,11 @@
                 <span>About</span>
               </NuxtLink>
             </li>
-            <li class="group/menu-item">
+            <li
+              :class="`group/menu-item ${
+                activeUrl == 'services' ? 'active' : ''
+              }`"
+            >
               <NuxtLink
                 to="/services"
                 class="group inline-flex items-center gap-2 rounded-lg px-3 py-2 text-center text-base font-medium text-muted transition hover:bg-light hover:text-dark group-[.active]/menu-item:bg-light group-[.active]/menu-item:text-dark dark:hover:bg-dark-2 dark:hover:text-white dark:group-[.active]/menu-item:bg-dark-2 dark:group-[.active]/menu-item:text-white"
@@ -100,7 +108,11 @@
                 <span>Services</span>
               </NuxtLink>
             </li>
-            <li class="group/menu-item">
+            <li
+              :class="`group/menu-item ${
+                activeUrl == 'portfolio' ? 'active' : ''
+              }`"
+            >
               <NuxtLink
                 to="/portfolio"
                 class="group inline-flex items-center gap-2 rounded-lg px-3 py-2 text-center text-base font-medium text-muted transition hover:bg-light hover:text-dark group-[.active]/menu-item:bg-light group-[.active]/menu-item:text-dark dark:hover:bg-dark-2 dark:hover:text-white dark:group-[.active]/menu-item:bg-dark-2 dark:group-[.active]/menu-item:text-white"
@@ -122,7 +134,9 @@
                 <span>Works</span>
               </NuxtLink>
             </li>
-            <li class="group/menu-item">
+            <li
+              :class="`group/menu-item ${activeUrl == 'blog' ? 'active' : ''}`"
+            >
               <NuxtLink
                 to="/blog"
                 class="group inline-flex items-center gap-2 rounded-lg px-3 py-2 text-center text-base font-medium text-muted transition hover:bg-light hover:text-dark group-[.active]/menu-item:bg-light group-[.active]/menu-item:text-dark dark:hover:bg-dark-2 dark:hover:text-white dark:group-[.active]/menu-item:bg-dark-2 dark:group-[.active]/menu-item:text-white"
@@ -144,7 +158,11 @@
                 <span>Blog</span>
               </NuxtLink>
             </li>
-            <li class="group/menu-item">
+            <li
+              :class="`group/menu-item ${
+                activeUrl == 'contact' ? 'active' : ''
+              }`"
+            >
               <NuxtLink
                 to="/contact"
                 class="group inline-flex items-center gap-2 rounded-lg px-3 py-2 text-center text-base font-medium text-muted transition hover:bg-light hover:text-dark group-[.active]/menu-item:bg-light group-[.active]/menu-item:text-dark dark:hover:bg-dark-2 dark:hover:text-white dark:group-[.active]/menu-item:bg-dark-2 dark:group-[.active]/menu-item:text-white"
@@ -285,7 +303,9 @@
         </div>
 
         <ul class="mt-4 flex flex-1 flex-col gap-2">
-          <li class="group/menu-item active">
+          <li
+            :class="`group/menu-item ${activeUrl == 'index' ? 'active' : ''}`"
+          >
             <NuxtLink
               to="/"
               class="group inline-flex w-full items-center gap-2 rounded-lg px-3 py-2 text-center text-base font-medium text-muted transition hover:bg-light hover:text-dark group-[.active]/menu-item:bg-light group-[.active]/menu-item:text-dark dark:hover:bg-dark-2 dark:hover:text-white dark:group-[.active]/menu-item:bg-dark-2 dark:group-[.active]/menu-item:text-white"
@@ -308,7 +328,9 @@
               <span>Home</span>
             </NuxtLink>
           </li>
-          <li class="group/menu-item">
+          <li
+            :class="`group/menu-item ${activeUrl == 'about' ? 'active' : ''}`"
+          >
             <NuxtLink
               to="/about"
               class="group inline-flex w-full items-center gap-2 rounded-lg px-3 py-2 text-center text-base font-medium text-muted transition hover:bg-light hover:text-dark group-[.active]/menu-item:bg-light group-[.active]/menu-item:text-dark dark:hover:bg-dark-2 dark:hover:text-white dark:group-[.active]/menu-item:bg-dark-2 dark:group-[.active]/menu-item:text-white"
@@ -334,7 +356,11 @@
               <span>About</span>
             </NuxtLink>
           </li>
-          <li class="group/menu-item">
+          <li
+            :class="`group/menu-item ${
+              activeUrl == 'services' ? 'active' : ''
+            }`"
+          >
             <NuxtLink
               to="/services"
               class="group inline-flex w-full items-center gap-2 rounded-lg px-3 py-2 text-center text-base font-medium text-muted transition hover:bg-light hover:text-dark group-[.active]/menu-item:bg-light group-[.active]/menu-item:text-dark dark:hover:bg-dark-2 dark:hover:text-white dark:group-[.active]/menu-item:bg-dark-2 dark:group-[.active]/menu-item:text-white"
@@ -356,7 +382,11 @@
               <span>Services</span>
             </NuxtLink>
           </li>
-          <li class="group/menu-item">
+          <li
+            :class="`group/menu-item ${
+              activeUrl == 'portfolio' ? 'active' : ''
+            }`"
+          >
             <NuxtLink
               to="/portfolio"
               class="group inline-flex w-full items-center gap-2 rounded-lg px-3 py-2 text-center text-base font-medium text-muted transition hover:bg-light hover:text-dark group-[.active]/menu-item:bg-light group-[.active]/menu-item:text-dark dark:hover:bg-dark-2 dark:hover:text-white dark:group-[.active]/menu-item:bg-dark-2 dark:group-[.active]/menu-item:text-white"
@@ -378,7 +408,7 @@
               <span>Works</span>
             </NuxtLink>
           </li>
-          <li class="group/menu-item">
+          <li :class="`group/menu-item ${activeUrl == 'blog' ? 'active' : ''}`">
             <NuxtLink
               to="/blog"
               class="group inline-flex w-full items-center gap-2 rounded-lg px-3 py-2 text-center text-base font-medium text-muted transition hover:bg-light hover:text-dark group-[.active]/menu-item:bg-light group-[.active]/menu-item:text-dark dark:hover:bg-dark-2 dark:hover:text-white dark:group-[.active]/menu-item:bg-dark-2 dark:group-[.active]/menu-item:text-white"
@@ -400,7 +430,9 @@
               <span>Blog</span>
             </NuxtLink>
           </li>
-          <li class="group/menu-item">
+          <li
+            :class="`group/menu-item ${activeUrl == 'contact' ? 'active' : ''}`"
+          >
             <NuxtLink
               to="/contact"
               class="group inline-flex w-full items-center gap-2 rounded-lg px-3 py-2 text-center text-base font-medium text-muted transition hover:bg-light hover:text-dark group-[.active]/menu-item:bg-light group-[.active]/menu-item:text-dark dark:hover:bg-dark-2 dark:hover:text-white dark:group-[.active]/menu-item:bg-dark-2 dark:group-[.active]/menu-item:text-white"
@@ -426,8 +458,10 @@
 
         <div class="flex flex-col gap-3">
           <button
+            v-if="colorPreference == 'light'"
             data-hs-theme-click-value="dark"
-            class="hs-dark-mode flex w-full items-center justify-start gap-2 rounded-lg px-4 py-2 text-center text-sm text-muted transition hover:bg-light hs-dark-mode-active:hidden dark:hover:bg-dark dark:hover:text-white"
+            class="hs-dark-mode flex w-full items-center justify-start gap-2 rounded-lg px-4 py-2 text-center text-sm text-muted transition hover:bg-light dark:hover:bg-dark dark:hover:text-white"
+            @click="changeColorPreference('dark')"
           >
             <svg
               xmlns="http://www.w3.org/2000/svg"
@@ -442,10 +476,11 @@
 
             <span>Change appearance</span>
           </button>
-
           <button
+            v-if="colorPreference == 'dark'"
             data-hs-theme-click-value="light"
-            class="hs-dark-mode hidden w-full items-center justify-start gap-2 rounded-lg px-4 py-2 text-center text-sm text-muted transition hover:bg-light hs-dark-mode-active:flex dark:hover:bg-dark dark:hover:text-white"
+            class="hs-dark-mode w-full items-center justify-start gap-2 rounded-lg px-4 py-2 text-center text-sm text-muted transition hover:bg-light hs-dark-mode-active:flex dark:hover:bg-dark dark:hover:text-white"
+            @click="changeColorPreference('light')"
           >
             <svg
               xmlns="http://www.w3.org/2000/svg"
@@ -488,6 +523,12 @@
 
 <script setup lang="ts">
 const isMobileMenuOpen = toRef(false);
-const { changeColorPreference } = useGlobalState();
+const { changeColorPreference, colorPreference } = useGlobalState();
+const colorMode = useColorMode();
+const route = useRoute();
+colorPreference.value = colorMode.value;
+const activeUrl = computed(() => {
+  return route.name;
+});
 </script>
 
