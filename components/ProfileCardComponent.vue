@@ -16,7 +16,9 @@ import CTAButtons from "./CTAButtons.vue";
     </div>
 
     <div class="mt-6">
-      <h3 class="text-2xl font-semibold dark:text-light">Dishit Dhanesha 👋</h3>
+      <h3 class="text-2xl font-semibold text-dark dark:text-light">
+        Dishit Dhanesha 👋
+      </h3>
       <p class="mt-2 text-muted dark:text-light/70">
         A Passionate
         <span class="font-semibold text-dark dark:text-white">

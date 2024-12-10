@@ -74,7 +74,7 @@
 
 <script setup lang="ts">
 const isAccordianOpen = toRef([]);
-const toggleAccordian = (idx: Number) => {
+const toggleAccordian = (idx: any) => {
   if (isAccordianOpen.value.includes(idx)) {
     let index = isAccordianOpen.value.indexOf(idx);
     isAccordianOpen.value.splice(index, 1);

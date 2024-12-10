@@ -5,6 +5,8 @@
       <NuxtLink
         href="#"
         class="inline-block border-b border-b-transparent text-primary transition hover:border-b-primary hover:text-blue-600"
+        animate-jump
+        animate-once
       >
         Dishit Dhanesha
       </NuxtLink>
