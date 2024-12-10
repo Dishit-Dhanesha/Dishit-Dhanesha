@@ -22,6 +22,7 @@
     </NuxtLink>
     <button
       type="button"
+      @click="() => openToast('Email Copied')"
       data-clipboard-text="shams.sujon.01@gmail.com"
       data-clipboard-action="copy"
       data-clipboard-success-text="Copied to clipboard"
@@ -43,13 +44,18 @@
         <path d="M16 8V6a2 2 0 0 0-2-2H6a2 2 0 0 0-2 2v8a2 2 0 0 0 2 2h2" />
       </svg>
       <span>Copy Email</span>
-
-      <span
-        class="hs-tooltip-content invisible z-10 hidden rounded-lg bg-gray-900 px-2 py-1 text-xs font-medium text-white opacity-0 shadow-sm transition-opacity hs-tooltip-shown:visible hs-tooltip-shown:opacity-100 dark:bg-slate-700"
-        role="tooltip"
-      >
-        Copied to clipboard
-      </span>
     </button>
   </div>
 </template>
+
+<script setup lang="ts">
+const toast = useToast();
+const openToast = (title: String) => {
+  toast.add({
+    title: title as string,
+    icon: "i-heroicons-check-circle",
+    color: "primary",
+  });
+};
+</script>
+

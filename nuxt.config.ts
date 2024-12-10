@@ -4,10 +4,10 @@ export default defineNuxtConfig({
   devtools: { enabled: true },
   css: ['~/assets/css/style.css'],
   modules: [
-    '@nuxtjs/tailwindcss',
     '@nuxtjs/color-mode',
     '@nuxt/icon',
     '@nuxt/image',
     '@vueuse/nuxt',
+    '@nuxt/ui'
   ]
 })
