@@ -14,6 +14,7 @@
       >
         <button
           class="hs-accordion-toggle inline-flex w-full items-center justify-between gap-x-3 px-6 py-5 text-start text-lg font-medium text-dark transition hover:text-muted disabled:pointer-events-none disabled:opacity-50 hs-accordion-active:text-primary dark:text-light/70 dark:hover:text-light dark:focus:outline-none dark:hs-accordion-active:text-primary xl:text-2xl"
+          @click="() => toggleAccordian(index)"
         >
           <span>What does a product designer need to know?</span>
           <span
@@ -48,7 +49,15 @@
         </button>
         <!-- hidden -->
         <div
-          class="hs-accordion-content hidden w-full overflow-hidden transition-[height] duration-300"
+          :class="[
+            'hs-accordion-content',
+            { hidden: !isAccordianOpen.includes(index) },
+            'open',
+            'w-full',
+            'overflow-hidden',
+            'transition-[height]',
+            'duration-300',
+          ]"
         >
           <div class="px-6 pb-5">
             <p class="text-base xl:text-lg">
@@ -62,3 +71,15 @@
     </div>
   </div>
 </template>
+
+<script setup lang="ts">
+const isAccordianOpen = toRef([]);
+const toggleAccordian = (idx: Number) => {
+  if (isAccordianOpen.value.includes(idx)) {
+    let index = isAccordianOpen.value.indexOf(idx);
+    isAccordianOpen.value.splice(index, 1);
+  } else {
+    isAccordianOpen.value.push(idx);
+  }
+};
+</script>
