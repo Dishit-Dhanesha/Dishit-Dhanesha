@@ -28,9 +28,9 @@
             </span>
             having
             <span class="font-semibold text-dark dark:text-white">
-              12 years
+              5+ years
             </span>
-            of Experiences over 24+ Country Worldwide.
+            of Experiences with multiple technologies.
           </p>
         </div>
         <div
@@ -54,15 +54,15 @@
             <h2
               class="text-3xl font-semibold text-dark dark:text-light lg:text-[40px]"
             >
-              <span>40</span>+
+              <span>5</span>+
             </h2>
-            <p class="mt-2 text-muted">Year of Experience</p>
+            <p class="mt-2 text-muted">Years of Experience</p>
           </div>
           <div class="">
             <h2
               class="text-3xl font-semibold text-dark dark:text-light lg:text-[40px]"
             >
-              <span>86</span>+
+              <span>20</span>+
             </h2>
             <p class="mt-2 text-muted">Project Completed</p>
           </div>
@@ -70,7 +70,7 @@
             <h2
               class="text-3xl font-semibold text-dark dark:text-light lg:text-[40px]"
             >
-              <span>72</span>+
+              <span>45</span>+
             </h2>
             <p class="mt-2 text-muted">Happy Client</p>
           </div>

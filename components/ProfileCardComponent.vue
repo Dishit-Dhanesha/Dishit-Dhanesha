@@ -1,7 +1,3 @@
-<script setup lang="ts">
-import CTAButtons from "./CTAButtons.vue";
-</script>
-
 <template>
   <!-- Intro -->
   <div class="rounded-2xl bg-white p-6 shadow dark:bg-black dark:shadow-dark">
@@ -26,11 +22,11 @@ import CTAButtons from "./CTAButtons.vue";
         </span>
         🖥️ &
         <span class="font-semibold text-dark dark:text-white">
-          Product Designer
+          Quant enthusiast
         </span>
         having
-        <span class="font-semibold text-dark dark:text-white"> 12 years </span>
-        of Experiences over 24+ Country Worldwide.
+        <span class="font-semibold text-dark dark:text-white"> 5+ years </span>
+        of Experiences with multiple technologies.
       </p>
 
       <!-- CTA buttons -->
