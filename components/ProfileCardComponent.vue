@@ -5,7 +5,7 @@
       class="aspect-6/4 overflow-hidden rounded-lg bg-light pt-4 text-center dark:bg-dark-2"
     >
       <img
-        src="~/assets/img/profile.png"
+        src="~/assets/img/profile/image.png"
         alt=""
         class="inline-block h-full w-full scale-110 object-contain object-bottom"
       />
