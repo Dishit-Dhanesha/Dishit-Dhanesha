@@ -21,6 +21,7 @@
             class="grid h-8 w-8 shrink-0 place-content-center rounded bg-white text-primary hs-accordion-active:bg-light dark:bg-black dark:hs-accordion-active:bg-dark-2"
           >
             <svg
+              v-if="!isAccordianOpen.includes(index)"
               class="block h-3.5 w-3.5 hs-accordion-active:hidden"
               xmlns="http://www.w3.org/2000/svg"
               viewBox="0 0 24 24"
@@ -33,8 +34,14 @@
               <path d="M5 12h14" />
               <path d="M12 5v14" />
             </svg>
+
             <svg
-              class="hidden h-3.5 w-3.5 hs-accordion-active:block"
+              :class="[
+                { hidden: !isAccordianOpen.includes(index) },
+                'h-3.5',
+                'w-3.5',
+                'hs-accordion-active:block',
+              ]"
               xmlns="http://www.w3.org/2000/svg"
               viewBox="0 0 24 24"
               fill="none"
