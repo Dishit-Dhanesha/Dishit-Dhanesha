@@ -1,7 +1,7 @@
 <template>
   <div class="mt-6 flex flex-wrap gap-2">
     <NuxtLink
-      to="#"
+      :to="'tel:+917600656442'"
       class="inline-flex items-center gap-x-2 rounded-lg border border-transparent bg-primary px-6 py-4 font-medium text-white transition hover:bg-blue-600 focus:outline-none focus:ring disabled:pointer-events-none disabled:opacity-50"
     >
       <svg
@@ -49,8 +49,10 @@
 </template>
 
 <script setup lang="ts">
+import { useClipboard } from "@vueuse/core";
 const toast = useToast();
 const openToast = (title: String) => {
+  navigator.clipboard.writeText("dishitrvdhanesha@gmail.com");
   toast.add({
     title: title as string,
     icon: "i-heroicons-check-circle",
