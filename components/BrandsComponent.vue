@@ -13,7 +13,7 @@
       <div
         v-for="(i, index) in technologies"
         :key="index"
-        class="grid h-16 place-content-center rounded-lg bg-light p-3 dark:bg-dark-2 lg:h-20 lg:rounded-2xl lg:p-4"
+        class="grid h-16 place-content-center rounded-lg bg-light p-3 dark:bg-dark-2 transition dark:hover:bg-white lg:h-20 lg:rounded-2xl lg:p-4"
       >
         <img :src="i.image" :alt="i.name" class="h-8 w-8 lg:h-10 lg:w-10" />
       </div>
@@ -28,7 +28,7 @@
       <div
         v-for="(i, index) in platforms"
         :key="index"
-        class="grid h-16 place-content-center rounded-lg bg-light p-3 dark:bg-dark-2 lg:h-20 lg:rounded-2xl lg:p-4"
+        class="grid h-16 place-content-center rounded-lg bg-light p-3 dark:bg-dark-2 transition dark:hover:bg-white lg:h-20 lg:rounded-2xl lg:p-4"
       >
         <img :src="i.image" :alt="i.name" class="h-8 w-8 lg:h-10 lg:w-10" />
       </div>

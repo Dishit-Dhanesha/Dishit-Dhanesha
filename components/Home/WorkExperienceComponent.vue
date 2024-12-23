@@ -15,25 +15,25 @@
         class="animate-scrollY space-y-4 group-hover:[animation-play-state:paused]"
       >
         <div v-for="(i, index) in timeline" :key="index">
-          <div class="flex flex-col gap-1 md:flex-row md:gap-10">
+          <div class="gap-1 md:gap-10">
             <p
               class="w-50 mt-1 text-sm font-medium text-muted dark:text-light/70"
             >
-              2018 - 2021
+              {{ i.year }}
             </p>
             <div class="flex items-center gap-3">
               <div
                 class="grid h-8 w-8 shrink-0 place-content-center rounded-lg bg-light dark:bg-dark-2"
               >
-                <img src="~/assets/img/adobe.svg" alt="" class="h-5 w-5" />
+                <img :src="i.img" alt="" class="h-5 w-5" />
               </div>
               <div class="">
                 <h6
                   class="text-base font-semibold text-dark dark:text-light/70"
                 >
-                  Adobe
+                  {{ i.location }}
                 </h6>
-                <p class="text-sm text-muted">Senior UI UX Designer</p>
+                <p class="text-sm text-muted">{{ i.designation }}</p>
               </div>
             </div>
           </div>
@@ -46,34 +46,34 @@
 <script setup lang="ts">
 const timeline = toRef([
   {
-    year: "2016 - 2020",
-    img: "",
-    location: "",
-    designation: "Bachelor of ",
+    year: "08/2016 - 05/  2020",
+    img: "/_nuxt/assets/img/Marwadi.svg",
+    location: "Marwadi Education Foundation",
+    designation: "B.E. Computer engineering",
   },
   {
     year: "09/2019 - 04/2020",
-    img: "",
+    img: "/_nuxt/assets/img/sanskar.svg",
     location: "Sansker Technolab Pvt Ltd, Ahmedabad",
     designation: "Jr Project Manager",
   },
   {
     year: "05/2020 - 06/2020",
-    img: "",
+    img: "/_nuxt/assets/img/GraphiteLogo.png",
     location: "Graphite Communication, Rajkot",
     designation: "Jr Project Manager",
   },
   {
-    year: "03/2021 - PRESENT",
-    img: "",
+    year: "03/2021 - 09/2023",
+    img: "/_nuxt/assets/img/rev.png",
     location: "Reveation Labs Pvt Ltd",
-    designation: "Software Developer",
+    designation: "Software Engineer",
   },
   {
     year: "03/2021 - PRESENT",
-    img: "",
-    location: "C3controls LTD",
-    designation: "Software Developer",
+    img: "/_nuxt/assets/img/c3.png",
+    location: "C3controls Ltd ",
+    designation: "Software Engineer",
   },
 ]);
 </script>

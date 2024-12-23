@@ -82,7 +82,7 @@
                 <span>About</span>
               </NuxtLink>
             </li>
-            <li
+            <!-- <li
               :class="`group/menu-item ${
                 activeUrl == 'services' ? 'active' : ''
               }`"
@@ -107,7 +107,7 @@
                 </svg>
                 <span>Services</span>
               </NuxtLink>
-            </li>
+            </li> -->
             <li
               :class="`group/menu-item ${
                 activeUrl == 'portfolio' ? 'active' : ''
@@ -134,7 +134,7 @@
                 <span>Works</span>
               </NuxtLink>
             </li>
-            <li
+            <!-- <li
               :class="`group/menu-item ${activeUrl == 'blog' ? 'active' : ''}`"
             >
               <NuxtLink
@@ -157,7 +157,7 @@
                 </svg>
                 <span>Blog</span>
               </NuxtLink>
-            </li>
+            </li> -->
             <li
               :class="`group/menu-item ${
                 activeUrl == 'contact' ? 'active' : ''
@@ -408,7 +408,7 @@
               <span>Works</span>
             </NuxtLink>
           </li>
-          <li :class="`group/menu-item ${activeUrl == 'blog' ? 'active' : ''}`">
+          <!-- <li :class="`group/menu-item ${activeUrl == 'blog' ? 'active' : ''}`">
             <NuxtLink
               to="/blog"
               class="group inline-flex w-full items-center gap-2 rounded-lg px-3 py-2 text-center text-base font-medium text-muted transition hover:bg-light hover:text-dark group-[.active]/menu-item:bg-light group-[.active]/menu-item:text-dark dark:hover:bg-dark-2 dark:hover:text-white dark:group-[.active]/menu-item:bg-dark-2 dark:group-[.active]/menu-item:text-white"
@@ -429,7 +429,7 @@
               </svg>
               <span>Blog</span>
             </NuxtLink>
-          </li>
+          </li> -->
           <li
             :class="`group/menu-item ${activeUrl == 'contact' ? 'active' : ''}`"
           >

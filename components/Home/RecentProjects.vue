@@ -23,47 +23,49 @@
     </div>
 
     <div class="mt-6 space-y-6">
-      <div
-        class="group relative overflow-hidden rounded-lg bg-light p-4 pb-0 dark:bg-dark-2 md:p-6 md:pb-0"
-      >
-        <div class="relative aspect-6/4 overflow-hidden rounded-t-lg">
-          <img
-            src="~/assets/img/project-1.png"
-            alt=""
-            class="h-full w-full rounded-t-lg object-cover object-top transition"
-          />
-
-          <NuxtLink
-            to="#"
-            data-gall="project-gallry-1"
-            class="project-gallery-link absolute left-1/2 top-1/2 grid h-10 w-10 -translate-x-1/2 -translate-y-1/2 place-content-center rounded-full bg-white text-primary shadow-lg transition lg:invisible lg:-translate-y-[40%] lg:opacity-0 lg:group-hover:visible lg:group-hover:-translate-y-1/2 lg:group-hover:opacity-100"
-          >
-            <svg
-              xmlns="http://www.w3.org/2000/svg"
-              viewBox="0 0 20 20"
-              fill="none"
-              stroke="currentColor"
-              stroke-linecap="round"
-              stroke-linejoin="round"
-              stroke-width="1.5"
-              class="h-6 w-6"
-            >
-              <path d="M10 4.167v11.666M4.167 10h11.666" />
-            </svg>
-          </NuxtLink>
-        </div>
-
+      <div v-for="(i, index) in projects.slice(0, 2)" :key="index">
         <div
-          class="absolute inset-x-0 bottom-0 flex flex-wrap gap-2 bg-gradient-to-t from-black/20 p-4"
+          class="group relative overflow-hidden rounded-lg bg-light p-4 pb-0 dark:bg-dark-2 md:p-6 md:pb-0"
         >
-          <span
-            class="rounded bg-white px-2 py-1 text-xs font-medium text-primary shadow"
+          <div class="relative aspect-6/4 bg-dark overflow-hidden rounded-t-lg">
+            <iframe
+              :src="i.link"
+              alt=""
+              class="h-full w-full overflow-hidden rounded-t-lg object-cover object-top transition"
+            ></iframe>
+
+            <NuxtLink
+              to="#"
+              data-gall="project-gallry-1"
+              class="project-gallery-link absolute left-1/2 top-1/2 grid h-10 w-10 -translate-x-1/2 -translate-y-1/2 place-content-center rounded-full bg-white text-primary shadow-lg transition lg:invisible lg:-translate-y-[40%] lg:opacity-0 lg:group-hover:visible lg:group-hover:-translate-y-1/2 lg:group-hover:opacity-100"
+            >
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                viewBox="0 0 20 20"
+                fill="none"
+                stroke="currentColor"
+                stroke-linecap="round"
+                stroke-linejoin="round"
+                stroke-width="1.5"
+                class="h-6 w-6"
+              >
+                <path d="M10 4.167v11.666M4.167 10h11.666" />
+              </svg>
+            </NuxtLink>
+          </div>
+
+          <div
+            class="absolute inset-x-0 bottom-0 flex flex-wrap gap-2 bg-gradient-to-t from-black/20 p-4"
           >
-            Product Design
-          </span>
+            <span
+              class="rounded bg-white px-2 py-1 text-xs font-medium text-primary shadow"
+            >
+              Project - {{ index + 1 }}
+            </span>
+          </div>
         </div>
       </div>
-      <div
+      <!-- <div
         class="group relative overflow-hidden rounded-lg bg-light p-4 pb-0 dark:bg-dark-2 md:p-6 md:pb-0"
       >
         <div class="relative aspect-6/4 overflow-hidden rounded-t-lg">
@@ -102,7 +104,11 @@
             Product Design
           </span>
         </div>
-      </div>
+      </div> -->
     </div>
   </div>
 </template>
+
+<script setup lang="ts">
+const { projects } = useGlobalState();
+</script>

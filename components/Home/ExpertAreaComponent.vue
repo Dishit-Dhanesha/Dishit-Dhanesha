@@ -5,7 +5,7 @@
     <div class="mt-6 grid grid-cols-2 gap-4 md:grid-cols-3">
       <div v-for="(i, index) in technologies" :key="index" class="text-center">
         <div
-          class="grid place-content-center rounded-lg bg-light p-3 dark:bg-dark-2"
+          class="grid place-content-center rounded-lg bg-light transition dark:hover:bg-white p-3 dark:bg-dark-2"
         >
           <img :src="i.image" alt="" class="h-8 w-8" />
         </div>

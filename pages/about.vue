@@ -18,7 +18,7 @@
       <AwardsRecognition />
 
       <!-- Blog -->
-      <AboutBlog />
+      <!-- <AboutBlog /> -->
 
       <!-- Contact -->
       <LetsWorkTogeather />

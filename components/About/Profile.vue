@@ -1,6 +1,6 @@
 <template>
   <div>
-    <div class="flex flex-col-reverse items-start gap-6 lg:flex-row lg:gap-10">
+    <div class="flex flex-col-reverse items-start gap-6 lg:flex-row lg:gap-12">
       <div class="">
         <h2
           class="text-3xl font-semibold text-dark dark:text-light lg:text-[40px]"
@@ -16,7 +16,7 @@
           </span>
           🖥️ &
           <span class="font-semibold text-dark dark:text-white">
-            Product Designer
+            Quant enthusiast
           </span>
           having
           <span class="font-semibold text-dark dark:text-white">
@@ -24,6 +24,7 @@
           </span>
           of Experiences with multiple technologies.
         </p>
+        <!-- ////////// New /////// -->
       </div>
       <div
         class="flex items-center justify-center gap-2 whitespace-nowrap rounded-lg bg-light px-4 py-2 text-center text-base font-medium leading-none text-primary dark:bg-dark-2 lg:text-lg"
@@ -39,7 +40,6 @@
         <span>Available For Hire</span>
       </div>
     </div>
-
     <div class="mt-8 flex flex-wrap justify-between gap-6 lg:mt-12 lg:gap-10">
       <div class="flex flex-wrap items-start gap-6 lg:gap-10">
         <div class="">
@@ -56,7 +56,7 @@
           >
             <span>20</span>+
           </h2>
-          <p class="mt-2 text-muted">Project Completed</p>
+          <p class="mt-2 text-muted">Projects Completed</p>
         </div>
         <div class="">
           <h2
@@ -66,6 +66,14 @@
           </h2>
           <p class="mt-2 text-muted">Happy Client</p>
         </div>
+        <!-- <div class="">
+          <h2
+            class="text-3xl font-semibold text-dark dark:text-light lg:text-[40px]"
+          >
+            <span>300</span>+
+          </h2>
+          <p class="mt-2 text-muted">Hours of Support</p>
+        </div> -->
       </div>
 
       <div
