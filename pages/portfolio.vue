@@ -29,11 +29,10 @@
             <div
               class="group relative overflow-hidden rounded-lg bg-light p-4 pb-0 dark:bg-dark-2 md:p-6 md:pb-0 xl:p-10 xl:pb-0"
             >
-              <div class="relative aspect-6/4 overflow-hidden rounded-t-lg">
-                <iframe
-                  class="w-full aspect-6/4 bg-dark opacity-50"
-                  :src="i.link"
-                ></iframe>
+              <div
+                class="bg-dark relative aspect-6/4 overflow-hidden rounded-t-lg"
+              >
+                <img class="w-full opacity-50" :src="i.image" :alt="i.name" />
 
                 <NuxtLink
                   :to="i.link"
