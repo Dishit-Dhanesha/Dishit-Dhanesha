@@ -15,7 +15,9 @@
         :key="index"
         class="grid h-16 place-content-center rounded-lg bg-light p-3 dark:bg-dark-2 transition dark:hover:bg-white lg:h-20 lg:rounded-2xl lg:p-4"
       >
-        <img :src="i.image" :alt="i.name" class="h-8 w-8 lg:h-10 lg:w-10" />
+        <UTooltip :text="i.name">
+          <img :src="i.image" :alt="i.name" class="h-8 w-8 lg:h-10 lg:w-10" />
+        </UTooltip>
       </div>
     </div>
     <br />
@@ -30,7 +32,9 @@
         :key="index"
         class="grid h-16 place-content-center rounded-lg bg-light p-3 dark:bg-dark-2 transition dark:hover:bg-white lg:h-20 lg:rounded-2xl lg:p-4"
       >
-        <img :src="i.image" :alt="i.name" class="h-8 w-8 lg:h-10 lg:w-10" />
+        <UTooltip :text="i.name">
+          <img :src="i.image" :alt="i.name" class="h-8 w-8 lg:h-10 lg:w-10" />
+        </UTooltip>
       </div>
     </div>
   </div>
@@ -83,7 +87,7 @@ const technologies = toRef([
 const platforms = toRef([
   {
     name: "HubSpot",
-    image: "/_nuxt/assets/img/JavaScript.svg",
+    image: "/_nuxt/assets/img/hubspot.png",
   },
   {
     name: "Sanity",
@@ -103,7 +107,7 @@ const platforms = toRef([
   },
   {
     name: "Alexa",
-    image: "/_nuxt/assets/img/JavaScript.svg",
+    image: "/_nuxt/assets/img/alexa.png",
   },
   {
     name: "Stripe",
