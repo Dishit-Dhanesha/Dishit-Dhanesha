@@ -21,7 +21,7 @@
             class="grid h-8 w-8 shrink-0 place-content-center rounded bg-white text-primary hs-accordion-active:bg-light dark:bg-black dark:hs-accordion-active:bg-dark-2"
           >
             <svg
-              v-if="!isAccordianOpen.includes(index)"
+              v-show="!isAccordianOpen.includes(index)"
               class="block h-3.5 w-3.5 hs-accordion-active:hidden"
               xmlns="http://www.w3.org/2000/svg"
               viewBox="0 0 24 24"
@@ -55,23 +55,18 @@
           </span>
         </button>
         <!-- hidden -->
-        <div
-          :class="[
-            'hs-accordion-content',
-            { hidden: !isAccordianOpen.includes(index) },
-            'open',
-            'w-full',
-            'overflow-hidden',
-            'transition-[height]',
-            'duration-300',
-          ]"
-        >
-          <div class="px-6 pb-5">
-            <p class="text-base xl:text-lg">
-              {{ i.answer }}
-            </p>
+        <Transition>
+          <div
+            v-if="isAccordianOpen.includes(index)"
+            class="hs-accordion-content open w-full overflow-hidden transition duration-300"
+          >
+            <div class="px-6 pb-5">
+              <p class="text-base xl:text-lg">
+                {{ i.answer }}
+              </p>
+            </div>
           </div>
-        </div>
+        </Transition>
       </div>
     </div>
   </div>
@@ -111,3 +106,14 @@ const faq = toRef([
   },
 ]);
 </script>
+
+<style scoped>
+.v-enter-active {
+  transition: opacity 0.5s ease;
+}
+
+.v-enter-from,
+.v-leave-to {
+  opacity: 0;
+}
+</style>
