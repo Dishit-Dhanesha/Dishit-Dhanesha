@@ -27,15 +27,11 @@
         <div
           class="group relative overflow-hidden rounded-lg bg-light p-4 pb-0 dark:bg-dark-2 md:p-6 md:pb-0"
         >
-          <div class="relative aspect-6/4 bg-dark overflow-hidden rounded-t-lg">
-            <img
-              :src="i.image"
-              :alt="i.name"
-              class="h-full w-full overflow-hidden rounded-t-lg object-cover object-top transition"
-            />
-
+          <div class="bg-dark relative aspect-6/4 overflow-hidden rounded-t-lg">
+            <img class="w-full opacity-50" :src="i.image" :alt="i.name" />
             <NuxtLink
               :to="i.link"
+              target="_blank"
               data-gall="project-gallry-1"
               class="project-gallery-link absolute left-1/2 top-1/2 grid h-10 w-10 -translate-x-1/2 -translate-y-1/2 place-content-center rounded-full bg-white text-primary shadow-lg transition lg:invisible lg:-translate-y-[40%] lg:opacity-0 lg:group-hover:visible lg:group-hover:-translate-y-1/2 lg:group-hover:opacity-100"
             >

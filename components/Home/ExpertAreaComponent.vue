@@ -7,7 +7,9 @@
         <div
           class="grid place-content-center rounded-lg bg-light transition dark:hover:bg-white p-3 dark:bg-dark-2"
         >
-          <img :src="i.image" alt="" class="h-8 w-8" />
+          <UTooltip :text="i.name">
+            <img :src="i.image" alt="" class="h-8 w-8" />
+          </UTooltip>
         </div>
         <p class="mt-1 text-base font-medium text-dark dark:text-light/70">
           {{ i.name }}

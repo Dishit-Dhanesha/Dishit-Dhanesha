@@ -94,7 +94,7 @@
           </svg>
         </div>
         <p class="mt-3 text-base font-medium text-dark dark:text-light/70">
-          Automation / Scripting
+          Automation & Scripting
         </p>
       </div>
       <div class="rounded-2xl bg-light p-2 text-center dark:bg-dark-2 md:p-4">
@@ -121,7 +121,7 @@
           </svg>
         </div>
         <p class="mt-3 text-base font-medium text-dark dark:text-light/70">
-          Cloud Architecture Design
+          Cloud Infrastructure Engineering
         </p>
       </div>
     </div>
