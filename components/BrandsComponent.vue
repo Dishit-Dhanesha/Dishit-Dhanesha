@@ -16,7 +16,11 @@
         class="grid h-16 place-content-center rounded-lg bg-light p-3 dark:bg-dark-2 transition dark:hover:bg-white lg:h-20 lg:rounded-2xl lg:p-4"
       >
         <UTooltip :text="i.name">
-          <img :src="i.image" :alt="i.name" class="h-8 w-8 lg:h-10 lg:w-10" />
+          <NuxtImg
+            :src="i.image"
+            :alt="i.name"
+            class="h-8 w-8 lg:h-10 lg:w-10"
+          />
         </UTooltip>
       </div>
     </div>
@@ -33,7 +37,11 @@
         class="grid h-16 place-content-center rounded-lg bg-light p-3 dark:bg-dark-2 transition dark:hover:bg-white lg:h-20 lg:rounded-2xl lg:p-4"
       >
         <UTooltip :text="i.name">
-          <img :src="i.image" :alt="i.name" class="h-8 w-8 lg:h-10 lg:w-10" />
+          <NuxtImg
+            :src="i.image"
+            :alt="i.name"
+            class="h-8 w-8 lg:h-10 lg:w-10"
+          />
         </UTooltip>
       </div>
     </div>
@@ -44,86 +52,86 @@
 const technologies = toRef([
   {
     name: "JavaScript",
-    image: "/_nuxt/assets/img/JavaScript.svg",
+    image: "/img/JavaScript.svg",
   },
   {
     name: "Typescript",
-    image: "/_nuxt/assets/img/TypeScript.svg",
+    image: "/img/TypeScript.svg",
   },
   {
     name: "Node.js",
-    image: "/_nuxt/assets/img/Node.js.svg",
+    image: "/img/Node.js.svg",
   },
   {
     name: "Vue.js",
-    image: "/_nuxt/assets/img/Vue.js.svg",
+    image: "/img/Vue.js.svg",
   },
   {
     name: "Nuxt.js",
-    image: "/_nuxt/assets/img/Nuxt JS.svg",
+    image: "/img/Nuxt JS.svg",
   },
   {
     name: "React.js",
-    image: "/_nuxt/assets/img/React.svg",
+    image: "/img/React.svg",
   },
   {
     name: "Next.js",
-    image: "/_nuxt/assets/img/Next.js.svg",
+    image: "/img/Next.js.svg",
   },
   {
     name: "AWS",
-    image: "/_nuxt/assets/img/AWS.svg",
+    image: "/img/AWS.svg",
   },
   {
     name: "Python",
-    image: "/_nuxt/assets/img/Python.svg",
+    image: "/img/Python.svg",
   },
   {
     name: "Docker",
-    image: "/_nuxt/assets/img/Docker.svg",
+    image: "/img/Docker.svg",
   },
 ]);
 
 const platforms = toRef([
   {
     name: "HubSpot",
-    image: "/_nuxt/assets/img/hubspot.png",
+    image: "/img/hubspot.png",
   },
   {
     name: "Sanity",
-    image: "/_nuxt/assets/img/sanity.svg",
+    image: "/img/sanity.svg",
   },
   {
     name: "Google Cloud",
-    image: "/_nuxt/assets/img/google-cloud-1.svg",
+    image: "/img/google-cloud-1.svg",
   },
   {
     name: "Azure",
-    image: "/_nuxt/assets/img/Azure.svg",
+    image: "/img/Azure.svg",
   },
   {
     name: "Firebase",
-    image: "/_nuxt/assets/img/Firebase.svg",
+    image: "/img/Firebase.svg",
   },
   {
     name: "Alexa",
-    image: "/_nuxt/assets/img/alexa.png",
+    image: "/img/alexa.png",
   },
   {
     name: "Stripe",
-    image: "/_nuxt/assets/img/stripe.svg",
+    image: "/img/stripe.svg",
   },
   {
     name: "Github",
-    image: "/_nuxt/assets/img/GitHub.svg",
+    image: "/img/GitHub.svg",
   },
   {
     name: "Linux",
-    image: "/_nuxt/assets/img/Linux.svg",
+    image: "/img/Linux.svg",
   },
   {
     name: "Kubernetes",
-    image: "/_nuxt/assets/img/Kubernetes.svg",
+    image: "/img/Kubernetes.svg",
   },
 ]);
 </script>

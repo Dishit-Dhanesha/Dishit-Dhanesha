@@ -51,8 +51,8 @@
                   to="/article"
                   class="group block aspect-6/4 overflow-hidden rounded-lg"
                 >
-                  <img
-                    src="~/assets/img/blog-img-1.jpg"
+                  <NuxtImg
+                    src="/img/blog-img-1.jpg"
                     alt=""
                     class="h-full w-full rounded-lg object-cover transition duration-700 group-hover:scale-105"
                   />
@@ -100,8 +100,8 @@
                   to="/article"
                   class="group block aspect-6/4 overflow-hidden rounded-lg"
                 >
-                  <img
-                    src="~/assets/img/blog-img-2.jpg"
+                  <NuxtImg
+                    src="/img/blog-img-2.jpg"
                     alt=""
                     class="h-full w-full rounded-lg object-cover transition duration-700 group-hover:scale-105"
                   />
@@ -149,8 +149,8 @@
                   to="/article"
                   class="group block aspect-6/4 overflow-hidden rounded-lg"
                 >
-                  <img
-                    src="~/assets/img/blog-img-3.jpg"
+                  <NuxtImg
+                    src="/img/blog-img-3.jpg"
                     alt=""
                     class="h-full w-full rounded-lg object-cover transition duration-700 group-hover:scale-105"
                   />

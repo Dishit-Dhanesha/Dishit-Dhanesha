@@ -1,3 +1,7 @@
+<script setup lang="ts">
+import { NuxtImg } from "#build/components";
+</script>
+
 <template>
   <main class="grid grid-cols-1 gap-4 lg:grid-cols-3 lg:gap-6">
     <!-- Intro -->
@@ -7,8 +11,8 @@
       class="rounded-2xl bg-white p-6 shadow dark:bg-black dark:shadow-dark lg:col-span-2 lg:p-10"
     >
       <figure class="aspect-video overflow-hidden rounded-lg">
-        <img
-          src="~/assets/img/blog-img-1.jpg"
+        <NuxtImg
+          src="/img/blog-img-1.jpg"
           alt=""
           class="h-full w-full object-cover"
         />
@@ -209,8 +213,8 @@
                 to="article.html"
                 class="group block aspect-6/4 overflow-hidden rounded-lg"
               >
-                <img
-                  src="~/assets/img/blog-img-1.jpg"
+                <NuxtImg
+                  src="/img/blog-img-1.jpg"
                   alt=""
                   class="h-full w-full rounded-lg object-cover transition duration-700 group-hover:scale-105"
                 />
@@ -256,8 +260,8 @@
                 to="article.html"
                 class="group block aspect-6/4 overflow-hidden rounded-lg"
               >
-                <img
-                  src="~/assets/img/blog-img-1.jpg"
+                <NuxtImg
+                  src="/img/blog-img-1.jpg"
                   alt=""
                   class="h-full w-full rounded-lg object-cover transition duration-700 group-hover:scale-105"
                 />

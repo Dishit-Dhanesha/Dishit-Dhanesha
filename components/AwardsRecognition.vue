@@ -14,7 +14,7 @@
           <div
             class="grid h-10 w-10 shrink-0 place-content-center rounded-lg bg-white transition group-hover:bg-light dark:bg-dark dark:group-hover:bg-white"
           >
-            <img :src="i.image" alt="" class="h-6 w-6 shrink-0" />
+            <NuxtImg :src="i.image" :alt="i.name" class="h-6 w-6 shrink-0" />
           </div>
           <div class="">
             <h5
@@ -78,25 +78,25 @@ const awards = toRef([
     name: "Javascript Algorithms and Data Structures - freeCodeCamp",
     link: "Hhhhh",
     year: "2018",
-    image: "/_nuxt/assets/img/freecodecamp.png",
+    image: "/img/freecodecamp.png",
   },
   {
     name: "AWS Educate - Getting Started with Cloud 101",
     link: "Hhhhh",
     year: "2022",
-    image: "/_nuxt/assets/img/AWS.svg",
+    image: "/img/AWS.svg",
   },
   {
     name: "AWS Educate - Getting Started with Cloud Ops",
     link: "Hhhhh",
     year: "2022",
-    image: "/_nuxt/assets/img/AWS.svg",
+    image: "/img/AWS.svg",
   },
   {
     name: "AWS Educate - Getting Started with Serverless",
     link: "Hhhhh",
     year: "2022",
-    image: "/_nuxt/assets/img/AWS.svg",
+    image: "/img/AWS.svg",
   },
 ]);
 </script>

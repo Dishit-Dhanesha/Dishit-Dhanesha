@@ -25,7 +25,7 @@
               <div
                 class="grid h-8 w-8 shrink-0 place-content-center rounded-lg bg-light dark:bg-dark-2"
               >
-                <img :src="i.img" alt="" class="h-5 w-5" />
+                <NuxtImg :src="i.img" :alt="i.location" class="h-5 w-5" />
               </div>
               <div class="">
                 <h6
@@ -47,31 +47,31 @@
 const timeline = toRef([
   {
     year: "08/2016 - 05/  2020",
-    img: "/_nuxt/assets/img/Marwadi.svg",
+    img: "/img/Marwadi.svg",
     location: "Marwadi Education Foundation",
     designation: "B.E. Computer engineering",
   },
   {
     year: "09/2019 - 04/2020",
-    img: "/_nuxt/assets/img/sanskar.svg",
+    img: "/img/sanskar.svg",
     location: "Sansker Technolab Pvt Ltd, Ahmedabad",
     designation: "Jr Project Manager",
   },
   {
     year: "05/2020 - 06/2020",
-    img: "/_nuxt/assets/img/GraphiteLogo.png",
+    img: "/img/GraphiteLogo.png",
     location: "Graphite Communication, Rajkot",
     designation: "Jr Project Manager",
   },
   {
     year: "03/2021 - 09/2023",
-    img: "/_nuxt/assets/img/rev.png",
+    img: "/img/rev.png",
     location: "Reveation Labs Pvt Ltd",
     designation: "Software Engineer",
   },
   {
     year: "03/2021 - PRESENT",
-    img: "/_nuxt/assets/img/c3.png",
+    img: "/img/c3.png",
     location: "C3controls Ltd ",
     designation: "Software Engineer",
   },

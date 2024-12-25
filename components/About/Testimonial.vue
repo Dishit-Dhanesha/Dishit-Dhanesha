@@ -50,29 +50,29 @@
               <div class="flex flex-wrap items-center justify-between gap-4">
                 <!-- stars -->
                 <div class="flex flex-wrap items-center gap-1">
-                  <img
-                    src="~/assets/img/star-full.svg"
-                    alt=""
+                  <NuxtImg
+                    src="/img/star-full.svg"
+                    alt="Rating"
                     class="h-4 w-4 shrink-0"
                   />
-                  <img
-                    src="~/assets/img/star-full.svg"
-                    alt=""
+                  <NuxtImg
+                    src="/img/star-full.svg"
+                    alt="Rating"
                     class="h-4 w-4 shrink-0"
                   />
-                  <img
-                    src="~/assets/img/star-full.svg"
-                    alt=""
+                  <NuxtImg
+                    src="/img/star-full.svg"
+                    alt="Rating"
                     class="h-4 w-4 shrink-0"
                   />
-                  <img
-                    src="~/assets/img/star-full.svg"
-                    alt=""
+                  <NuxtImg
+                    src="/img/star-full.svg"
+                    alt="Rating"
                     class="h-4 w-4 shrink-0"
                   />
-                  <img
-                    src="~/assets/img/star-full.svg"
-                    alt=""
+                  <NuxtImg
+                    src="/img/star-full.svg"
+                    alt="Rating"
                     class="h-4 w-4 shrink-0"
                   />
                 </div>

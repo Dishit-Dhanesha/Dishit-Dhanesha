@@ -8,7 +8,7 @@
           class="grid place-content-center rounded-lg bg-light transition dark:hover:bg-white p-3 dark:bg-dark-2"
         >
           <UTooltip :text="i.name">
-            <img :src="i.image" alt="" class="h-8 w-8" />
+            <NuxtImg :src="i.image" :alt="i.name" class="h-8 w-8" />
           </UTooltip>
         </div>
         <p class="mt-1 text-base font-medium text-dark dark:text-light/70">
@@ -23,39 +23,39 @@
 const technologies = toRef([
   {
     name: "JavaScript",
-    image: "/_nuxt/assets/img/JavaScript.svg",
+    image: "/img/JavaScript.svg",
   },
   {
     name: "Typescript",
-    image: "/_nuxt/assets/img/TypeScript.svg",
+    image: "/img/TypeScript.svg",
   },
   {
     name: "Node.js",
-    image: "/_nuxt/assets/img/Node.js.svg",
+    image: "/img/Node.js.svg",
   },
   {
     name: "Vue.js",
-    image: "/_nuxt/assets/img/Vue.js.svg",
+    image: "/img/Vue.js.svg",
   },
   {
     name: "Nuxt.js",
-    image: "/_nuxt/assets/img/Nuxt JS.svg",
+    image: "/img/Nuxt JS.svg",
   },
   {
     name: "React.js",
-    image: "/_nuxt/assets/img/React.svg",
+    image: "/img/React.svg",
   },
   {
     name: "Next.js",
-    image: "/_nuxt/assets/img/Next.js.svg",
+    image: "/img/Next.js.svg",
   },
   {
     name: "AWS",
-    image: "/_nuxt/assets/img/AWS.svg",
+    image: "/img/AWS.svg",
   },
   {
     name: "Python",
-    image: "/_nuxt/assets/img/Python.svg",
+    image: "/img/Python.svg",
   },
 ]);
 </script>

@@ -1,3 +1,7 @@
+<script setup lang="ts">
+import { NuxtImg } from "#build/components";
+</script>
+
 <template>
   <div>
     <div class="flex flex-col-reverse items-start gap-6 lg:flex-row lg:gap-10">
@@ -235,8 +239,8 @@
     <div
       class="mt-10 aspect-video overflow-hidden rounded-lg bg-light dark:bg-dark-2 lg:mt-14"
     >
-      <img
-        src="~/assets/img/blog-img-1.jpg"
+      <NuxtImg
+        src="/img/blog-img-1.jpg"
         alt=""
         class="h-full w-full rounded-lg object-cover"
       />

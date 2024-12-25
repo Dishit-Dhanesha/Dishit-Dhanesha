@@ -32,7 +32,11 @@
               <div
                 class="bg-dark relative aspect-6/4 overflow-hidden rounded-t-lg"
               >
-                <img class="w-full opacity-50" :src="i.image" :alt="i.name" />
+                <NuxtImg
+                  class="w-full opacity-50"
+                  :src="i.image"
+                  :alt="i.name"
+                />
 
                 <NuxtLink
                   :to="i.link"
@@ -204,5 +208,4 @@
 
 <script setup lang="ts">
 const { projects } = useGlobalState();
-const pageCount = toRef(3);
 </script>
