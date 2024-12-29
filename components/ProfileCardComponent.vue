@@ -5,7 +5,7 @@
       class="aspect-6/4 overflow-hidden rounded-lg bg-light pt-4 text-center dark:bg-dark-2"
     >
       <NuxtImg
-        src="/img/profile/image.png"
+        src="/img/profile/image.webp"
         alt="Profile Picture"
         class="inline-block h-full w-full scale-110 object-contain object-bottom"
       />

@@ -250,13 +250,12 @@
           <!-- Navigation toggler -->
           <button
             type="button"
-            class="text-dark transition dark:text-white/70 lg:hidden"
+            class="text-dark transition dark:text-white/70 lg:hidden hover:scale-105 py-2 px-4 rounded transition duration-300 ease-in-out transform border-2 dark:border-black border-white hover:dark:border-white"
             data-hs-overlay="#mobile-menu"
             aria-controls="mobile-menu"
             aria-label="Toggle navigation"
             @click="isMobileMenuOpen = !isMobileMenuOpen"
           >
-            <span class="sr-only">Toggle Navigation</span>
             <svg
               class="h-9 w-9 flex-shrink-0"
               fill="currentColor"
@@ -273,6 +272,7 @@
     </header>
     <!-- Mobile menu -->
     <div
+      ref="target"
       id="mobile-menu"
       :class="[
         'hs-overlay fixed bottom-0 start-0 top-0 z-[60] h-full w-64 -translate-x-full transform overflow-y-auto bg-white transition-all duration-300 hs-overlay-open:translate-x-0 dark:bg-black [&::-webkit-scrollbar-thumb]:rounded-full [&::-webkit-scrollbar-thumb]:bg-gray-300 [&::-webkit-scrollbar-track]:bg-gray-100 [&::-webkit-scrollbar]:w-2',
@@ -356,13 +356,13 @@
               <span>About</span>
             </NuxtLink>
           </li>
-          <li
+          <!-- <li
             :class="`group/menu-item ${
-              activeUrl == 'services' ? 'active' : ''
+              activeUrl == 'portfolio' ? 'active' : ''
             }`"
           >
             <NuxtLink
-              to="/services"
+              to="/portfolio"
               class="group inline-flex w-full items-center gap-2 rounded-lg px-3 py-2 text-center text-base font-medium text-muted transition hover:bg-light hover:text-dark group-[.active]/menu-item:bg-light group-[.active]/menu-item:text-dark dark:hover:bg-dark-2 dark:hover:text-white dark:group-[.active]/menu-item:bg-dark-2 dark:group-[.active]/menu-item:text-white"
             >
               <svg
@@ -381,7 +381,7 @@
               </svg>
               <span>Services</span>
             </NuxtLink>
-          </li>
+          </li> -->
           <li
             :class="`group/menu-item ${
               activeUrl == 'portfolio' ? 'active' : ''
@@ -522,6 +522,9 @@
 </template>
 
 <script setup lang="ts">
+import { onClickOutside } from "@vueuse/core";
+const target = ref(null);
+
 const isMobileMenuOpen = toRef(false);
 const { changeColorPreference, colorPreference } = useGlobalState();
 const colorMode = useColorMode();
@@ -530,5 +533,17 @@ colorPreference.value = colorMode.value;
 const activeUrl = computed(() => {
   return route.name;
 });
+
+onClickOutside(target, () =>
+  isMobileMenuOpen.value ? (isMobileMenuOpen.value = false) : ""
+);
+
+watch(
+  route,
+  () => {
+    isMobileMenuOpen.value = false;
+  },
+  { deep: true }
+);
 </script>
 

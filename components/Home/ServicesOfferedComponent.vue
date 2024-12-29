@@ -25,9 +25,7 @@
     </div>
 
     <div class="mt-6 grid grid-cols-2 gap-6 md:grid-cols-4">
-      <div
-        class="rounded-2xl bg-light p-2 text-center dark:hover:bg-white dark:bg-dark-2 md:p-4"
-      >
+      <div class="rounded-2xl bg-light p-2 text-center dark:bg-dark-2 md:p-4">
         <div
           class="grid place-content-center rounded-lg bg-white p-6 dark:bg-black"
         >

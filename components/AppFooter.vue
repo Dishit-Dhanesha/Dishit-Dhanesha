@@ -1,7 +1,7 @@
 <template>
   <footer class="text-center">
     <p class="text-sm dark:text-light/70">
-      Design By
+      Powered By
       <NuxtLink
         href="#"
         class="inline-block border-b border-b-transparent text-primary transition hover:border-b-primary hover:text-blue-600"
