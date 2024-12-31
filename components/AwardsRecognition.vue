@@ -14,7 +14,12 @@
           <div
             class="grid h-10 w-10 shrink-0 place-content-center rounded-lg bg-white transition group-hover:bg-light dark:bg-dark dark:group-hover:bg-white"
           >
-            <NuxtImg :src="i.image" :alt="i.name" class="h-6 w-6 shrink-0" />
+            <NuxtImg
+              :src="i.image"
+              loading="lazy"
+              :alt="i.name"
+              class="h-6 w-6 shrink-0"
+            />
           </div>
           <div class="">
             <h5

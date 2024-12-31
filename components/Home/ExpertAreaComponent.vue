@@ -8,7 +8,14 @@
           class="grid place-content-center rounded-lg bg-light transition dark:hover:bg-white p-3 dark:bg-dark-2"
         >
           <UTooltip :text="i.name">
-            <NuxtImg :src="i.image" :alt="i.name" class="h-8 w-8" />
+            <NuxtImg
+              :src="i.image"
+              :alt="i.name"
+              width="8"
+              height="8"
+              loading="lazy"
+              class="h-8 w-8"
+            />
           </UTooltip>
         </div>
         <p class="mt-1 text-base font-medium text-dark dark:text-light/70">

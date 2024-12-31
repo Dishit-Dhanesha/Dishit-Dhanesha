@@ -79,14 +79,16 @@
       <div
         class="relative -mt-6 hidden h-[100px] w-[100px] p-4 lg:block xl:-mt-10"
       >
-        <img
+        <NuxtImg
           src="~/assets/img/circle-text.svg"
-          alt=""
+          alt="Circle Text"
+          loading="lazy"
           class="absolute inset-0 h-full w-full animate-spin-slow dark:hidden"
         />
-        <img
+        <NuxtImg
           src="~/assets/img/circle-text-light.svg"
-          alt=""
+          alt="Circle Text"
+          loading="lazy"
           class="absolute inset-0 hidden h-full w-full animate-spin-slow dark:block"
         />
         <div

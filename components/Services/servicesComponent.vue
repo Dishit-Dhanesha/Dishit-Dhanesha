@@ -241,7 +241,7 @@ import { NuxtImg } from "#build/components";
     >
       <NuxtImg
         src="/img/blog-img-1.jpg"
-        alt=""
+        alt="Hidden"
         class="h-full w-full rounded-lg object-cover"
       />
     </div>

@@ -53,26 +53,41 @@
                   <NuxtImg
                     src="/img/star-full.svg"
                     alt="Rating"
+                    width="4"
+                    height="4"
+                    loading="lazy"
                     class="h-4 w-4 shrink-0"
                   />
                   <NuxtImg
                     src="/img/star-full.svg"
                     alt="Rating"
+                    width="4"
+                    height="4"
+                    loading="lazy"
                     class="h-4 w-4 shrink-0"
                   />
                   <NuxtImg
                     src="/img/star-full.svg"
                     alt="Rating"
+                    width="4"
+                    height="4"
+                    loading="lazy"
                     class="h-4 w-4 shrink-0"
                   />
                   <NuxtImg
                     src="/img/star-full.svg"
                     alt="Rating"
+                    width="4"
+                    height="4"
+                    loading="lazy"
                     class="h-4 w-4 shrink-0"
                   />
                   <NuxtImg
                     src="/img/star-full.svg"
                     alt="Rating"
+                    width="4"
+                    height="4"
+                    loading="lazy"
                     class="h-4 w-4 shrink-0"
                   />
                 </div>

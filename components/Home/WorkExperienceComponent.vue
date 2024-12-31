@@ -25,7 +25,14 @@
               <div
                 class="grid h-8 w-8 shrink-0 place-content-center rounded-lg bg-light dark:bg-dark-2"
               >
-                <NuxtImg :src="i.img" :alt="i.location" class="h-5 w-5" />
+                <NuxtImg
+                  :src="i.img"
+                  loading="lazy"
+                  :alt="i.location"
+                  width="5"
+                  height="5"
+                  class="h-5 w-5"
+                />
               </div>
               <div class="">
                 <h6

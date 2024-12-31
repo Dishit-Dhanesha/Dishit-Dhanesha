@@ -19,6 +19,9 @@
           <NuxtImg
             :src="i.image"
             :alt="i.name"
+            width="8"
+            height="8"
+            loading="lazy"
             class="h-8 w-8 lg:h-10 lg:w-10"
           />
         </UTooltip>
@@ -40,6 +43,8 @@
           <NuxtImg
             :src="i.image"
             :alt="i.name"
+            width="8"
+            height="8"
             class="h-8 w-8 lg:h-10 lg:w-10"
           />
         </UTooltip>

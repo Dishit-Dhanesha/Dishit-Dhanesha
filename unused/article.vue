@@ -263,6 +263,8 @@ import { NuxtImg } from "#build/components";
                 <NuxtImg
                   src="/img/blog-img-1.jpg"
                   alt=""
+                  width="auto"
+                  height="auto"
                   class="h-full w-full rounded-lg object-cover transition duration-700 group-hover:scale-105"
                 />
               </NuxtLink>

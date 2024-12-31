@@ -36,6 +36,7 @@
                   class="w-full opacity-50"
                   :src="i.image"
                   :alt="i.name"
+                  format="webp"
                 />
 
                 <NuxtLink
