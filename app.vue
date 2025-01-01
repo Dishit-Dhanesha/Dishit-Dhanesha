@@ -7,6 +7,9 @@
 </template>
 
 <script setup lang="ts" >
+defineOgImageComponent("NuxtSeo", {
+  colorMode: "dark",
+});
 const { colorPreference } = useGlobalState();
 
 const isDark = computed(() => {

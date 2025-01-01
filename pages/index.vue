@@ -24,3 +24,12 @@
     </main>
   </div>
 </template>
+
+<script lang="ts" setup>
+useSeoMeta({
+  title:
+    "Expert Full Stack Developer for Custom Web & App Solutions | Dishit Dhanesha",
+  description:
+    "Expert Full Stack Developer offering custom web, mobile and cloud solutions. Let's create something amazing! Contact me today!",
+});
+</script>

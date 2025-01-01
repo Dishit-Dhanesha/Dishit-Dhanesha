@@ -209,4 +209,9 @@
 
 <script setup lang="ts">
 const { projects } = useGlobalState();
+useSeoMeta({
+  title: "Professional Full Stack Web & Mobile App Projects | Dishit Dhanesha",
+  description:
+    "Browse my portfolio to see how I leverage full-stack development, cloud technologies, and serverless architecture to build secure, high-performance applications.",
+});
 </script>

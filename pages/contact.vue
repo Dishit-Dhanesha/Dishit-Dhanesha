@@ -1,6 +1,4 @@
-<script setup lang="ts">
-import CTAButtons from "~/components/CTAButtons.vue";
-</script>
+
 
 <template>
   <main class="grid grid-cols-1 gap-4 lg:grid-cols-3 lg:gap-6">
@@ -46,3 +44,13 @@ import CTAButtons from "~/components/CTAButtons.vue";
     </div>
   </main>
 </template>
+
+<script lang="ts" setup>
+import CTAButtons from "~/components/CTAButtons.vue";
+useSeoMeta({
+  title:
+    "Get in Touch with a Full Stack Developer and Cloud Export | Dishit Dhanesha",
+  description:
+    "Reach out to Dishit Dhanesha, a professional Full Stack Developer specializing in JavaScript, Vue.js, Node.js, and AWS. Contact for innovative web mobile and cloud development solutions.",
+});
+</script>

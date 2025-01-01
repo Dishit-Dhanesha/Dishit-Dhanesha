@@ -25,3 +25,10 @@
     </div>
   </main>
 </template>
+<script lang="ts" setup>
+useSeoMeta({
+  title: "Explore My Experience as a Full Stack Developer | Dishit Dhanesha",
+  description:
+    "Discover Dishit Dhanesha's journey as a Full Stack Developer, specializing in JavaScript, React, Node.js, and AWS. Explore innovative web and mobile app projects showcasing cutting-edge technologies and professional expertise.",
+});
+</script>
