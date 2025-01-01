@@ -38,6 +38,8 @@
       <!-- Social -->
       <div class="mt-8 flex flex-wrap items-center gap-2">
         <NuxtLink
+          rel="noopener"
+          aria-label="Telegram"
           to="https://t.me/Dishit_Dhanesha"
           target="_blank"
           class="flex h-10 w-10 items-center justify-center rounded-lg border border-slate-200 bg-transparent text-center text-slate-600 transition hover:text-primary focus:outline-none focus:ring disabled:pointer-events-none disabled:opacity-50 dark:border-transparent dark:bg-dark-2 dark:text-slate-500 dark:hover:text-primary"
@@ -56,6 +58,8 @@
           </svg>
         </NuxtLink>
         <NuxtLink
+          rel="noopener"
+          aria-label="Linkedin"
           to="https://www.linkedin.com/in/dishit-dhanesha/"
           target="_blank"
           class="flex h-10 w-10 items-center justify-center rounded-lg border border-slate-200 bg-transparent text-center text-slate-600 transition hover:text-primary focus:outline-none focus:ring disabled:pointer-events-none disabled:opacity-50 dark:border-transparent dark:bg-dark-2 dark:text-slate-500 dark:hover:text-primary"
@@ -74,6 +78,8 @@
           </svg>
         </NuxtLink>
         <NuxtLink
+          rel="noopener"
+          aria-label="Github"
           to="https://github.com/Dishit-Dhanesha"
           target="_blank"
           class="flex h-10 w-10 items-center justify-center rounded-lg border border-slate-200 bg-transparent text-center text-slate-600 transition hover:text-primary focus:outline-none focus:ring disabled:pointer-events-none disabled:opacity-50 dark:border-transparent dark:bg-dark-2 dark:text-slate-500 dark:hover:text-primary"
@@ -90,6 +96,8 @@
           </svg>
         </NuxtLink>
         <NuxtLink
+          rel="noopener"
+          aria-label="Discord"
           to="https://discord.com/users/698025249421393981"
           target="_blank"
           class="flex h-10 w-10 items-center justify-center rounded-lg border border-slate-200 bg-transparent text-center text-slate-600 transition hover:text-primary focus:outline-none focus:ring disabled:pointer-events-none disabled:opacity-50 dark:border-transparent dark:bg-dark-2 dark:text-slate-500 dark:hover:text-primary"
@@ -108,6 +116,8 @@
           </svg>
         </NuxtLink>
         <NuxtLink
+          rel="noopener"
+          aria-label="Skype"
           to="https://join.skype.com/invite/yQRGdasV1oer"
           target="_blank"
           class="flex h-10 w-10 items-center justify-center rounded-lg border border-slate-200 bg-transparent text-center text-slate-600 transition hover:text-primary focus:outline-none focus:ring disabled:pointer-events-none disabled:opacity-50 dark:border-transparent dark:bg-dark-2 dark:text-slate-500 dark:hover:text-primary"
