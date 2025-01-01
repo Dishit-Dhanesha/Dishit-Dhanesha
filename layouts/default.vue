@@ -5,7 +5,7 @@
     <div
       class="mx-auto flex max-w-screen-2xl flex-col justify-between gap-4 p-4 lg:gap-6 lg:p-6"
     >
-      <AppHeader />
+      <AppHeader class="sticky top-0 shadow-md z-50" />
       <UContainer>
         <NuxtPage />
       </UContainer>
