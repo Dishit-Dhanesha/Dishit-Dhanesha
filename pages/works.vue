@@ -41,10 +41,10 @@
                   class="w-full opacity-50"
                   :src="i.image"
                   :alt="i.name"
-                  loading="lazy"
-                  format="webp"
                   height="1330"
                   width="851"
+                  loading="lazy"
+                  format="webp"
                 />
 
                 <NuxtLink
