@@ -27,9 +27,16 @@
 
 <script lang="ts" setup>
 useSeoMeta({
-  title:
-    "Expert Full Stack Developer for Custom Web & App Solutions | Dishit Dhanesha",
+  title: "Expert Full Stack Developer for Custom Web & App Solutions",
   description:
     "Expert Full Stack Developer offering custom web, mobile and cloud solutions. Let's create something amazing! Contact me today!",
+  twitterTitle: "Expert Full Stack Developer for Custom Web & App Solutions",
+  twitterDescription:
+    "Expert Full Stack Developer offering custom web, mobile and cloud solutions. Let's create something amazing! Contact me today!",
+  twitterCard: "summary",
+});
+
+defineOgImageComponent("NuxtSeo", {
+  screenshot: true,
 });
 </script>

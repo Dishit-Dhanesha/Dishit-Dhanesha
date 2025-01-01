@@ -216,9 +216,16 @@
 <script setup lang="ts">
 const { projects } = useGlobalState();
 useSeoMeta({
-  title: "Professional Full Stack Web & Mobile App Projects | Dishit Dhanesha",
+  title: "Professional Full Stack Web & Mobile App Projects",
   description:
     "Browse my portfolio to see how I leverage full-stack development, cloud technologies, and serverless architecture to build secure, high-performance applications.",
+  twitterTitle: "Professional Full Stack Web & Mobile App Projects",
+  twitterDescription:
+    "Browse my portfolio to see how I leverage full-stack development, cloud technologies, and serverless architecture to build secure, high-performance applications.",
+  twitterCard: "summary",
+});
+defineOgImageComponent("NuxtSeo", {
+  screenshot: true,
 });
 </script>
 

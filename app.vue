@@ -7,14 +7,18 @@
 </template>
 
 <script setup lang="ts" >
-defineOgImageComponent("NuxtSeo", {
-  colorMode: "dark",
-});
 const { colorPreference } = useGlobalState();
 useHead({
   htmlAttrs: {
     lang: "en",
   },
+  link: [
+    {
+      rel: "icon",
+      type: "'image/x-icon'",
+      href: "./favicon.ico",
+    },
+  ],
 });
 const isDark = computed(() => {
   if (colorPreference.value == "dark") {

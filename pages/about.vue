@@ -27,8 +27,15 @@
 </template>
 <script lang="ts" setup>
 useSeoMeta({
-  title: "Explore My Experience as a Full Stack Developer | Dishit Dhanesha",
+  title: "Explore My Experience as a Full Stack Developer",
   description:
     "Discover Dishit Dhanesha's journey as a Full Stack Developer, specializing in JavaScript, React, Node.js, and AWS. Explore innovative web and mobile app projects showcasing cutting-edge technologies and professional expertise.",
+  twitterTitle: "Explore My Experience as a Full Stack Developer",
+  twitterDescription:
+    "Discover Dishit Dhanesha's journey as a Full Stack Developer, specializing in JavaScript, React, Node.js, and AWS. Explore innovative web and mobile app projects showcasing cutting-edge technologies and professional expertise.",
+  twitterCard: "summary",
+});
+defineOgImageComponent("NuxtSeo", {
+  screenshot: true,
 });
 </script>

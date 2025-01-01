@@ -48,9 +48,15 @@
 <script lang="ts" setup>
 import CTAButtons from "~/components/CTAButtons.vue";
 useSeoMeta({
-  title:
-    "Get in Touch with a Full Stack Developer and Cloud Export | Dishit Dhanesha",
+  title: "Get in Touch with a Full Stack Developer and Cloud Export",
   description:
     "Reach out to Dishit Dhanesha, a professional Full Stack Developer specializing in JavaScript, Vue.js, Node.js, and AWS. Contact for innovative web mobile and cloud development solutions.",
+  twitterTitle: "Get in Touch with a Full Stack Developer and Cloud Export",
+  twitterDescription:
+    "Reach out to Dishit Dhanesha, a professional Full Stack Developer specializing in JavaScript, Vue.js, Node.js, and AWS. Contact for innovative web mobile and cloud development solutions.",
+  twitterCard: "summary",
+});
+defineOgImageComponent("NuxtSeo", {
+  screenshot: true,
 });
 </script>
