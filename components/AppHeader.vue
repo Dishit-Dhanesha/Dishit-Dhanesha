@@ -109,12 +109,10 @@
               </NuxtLink>
             </li> -->
             <li
-              :class="`group/menu-item ${
-                activeUrl == 'portfolio' ? 'active' : ''
-              }`"
+              :class="`group/menu-item ${activeUrl == 'works' ? 'active' : ''}`"
             >
               <NuxtLink
-                to="/portfolio"
+                to="/works"
                 class="group inline-flex items-center gap-2 rounded-lg px-3 py-2 text-center text-base font-medium text-muted transition hover:bg-light hover:text-dark group-[.active]/menu-item:bg-light group-[.active]/menu-item:text-dark dark:hover:bg-dark-2 dark:hover:text-white dark:group-[.active]/menu-item:bg-dark-2 dark:group-[.active]/menu-item:text-white"
               >
                 <svg
@@ -383,12 +381,10 @@
             </NuxtLink>
           </li> -->
           <li
-            :class="`group/menu-item ${
-              activeUrl == 'portfolio' ? 'active' : ''
-            }`"
+            :class="`group/menu-item ${activeUrl == 'works' ? 'active' : ''}`"
           >
             <NuxtLink
-              to="/portfolio"
+              to="/works"
               class="group inline-flex w-full items-center gap-2 rounded-lg px-3 py-2 text-center text-base font-medium text-muted transition hover:bg-light hover:text-dark group-[.active]/menu-item:bg-light group-[.active]/menu-item:text-dark dark:hover:bg-dark-2 dark:hover:text-white dark:group-[.active]/menu-item:bg-dark-2 dark:group-[.active]/menu-item:text-white"
             >
               <svg

@@ -73,7 +73,7 @@ const technologies = toRef([
   },
   {
     name: "Nuxt.js",
-    image: "/img/Nuxt JS.svg",
+    image: "/img/NuxtJS.svg",
   },
   {
     name: "React.js",

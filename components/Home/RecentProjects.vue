@@ -3,7 +3,7 @@
     <div class="flex flex-wrap items-center justify-between gap-2">
       <h3 class="text-2xl font-semibold dark:text-light">Recent Projects</h3>
       <NuxtLink
-        to="/portfolio"
+        to="/works"
         class="inline-flex items-center justify-center gap-2 border-b text-center text-base text-primary transition hover:border-b-primary dark:border-b-muted dark:hover:border-b-primary"
       >
         <span>All Projects</span>
