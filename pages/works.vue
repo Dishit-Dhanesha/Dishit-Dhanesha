@@ -24,10 +24,15 @@
 
       <!-- Portfolio -->
       <div class="mt-10 lg:mt-14">
-        <div class="mt-6 space-y-6">
-          <div v-for="(i, index) in projects" :key="index" class="">
+        <div class="mt-6 flex flex-row flex-wrap space-y-6">
+          <div
+            style="margin-top: 0px"
+            class="lg:w-1/2"
+            v-for="(i, index) in projects"
+            :key="index"
+          >
             <div
-              class="group relative overflow-hidden rounded-lg bg-light p-4 pb-0 dark:bg-dark-2 md:p-6 md:pb-0 xl:p-10 xl:pb-0"
+              class="group m-1 relative overflow-hidden rounded-lg bg-light p-3 pb-0 dark:bg-dark-2 md:p-6 md:pb-0 xl:p-10 xl:pb-0"
             >
               <div
                 class="bg-dark relative aspect-6/4 overflow-hidden rounded-t-lg"
@@ -74,9 +79,8 @@
                     {{ i.name }}
                   </NuxtLink>
                 </h3>
-                <p class="text-sm text-muted lg:text-base">
-                  {{ i.about }}
-                </p>
+                <p class="turncate text-sm text-muted lg:text-base"></p>
+                {{ i.about }}
               </div>
 
               <NuxtLink
@@ -217,3 +221,11 @@ useSeoMeta({
     "Browse my portfolio to see how I leverage full-stack development, cloud technologies, and serverless architecture to build secure, high-performance applications.",
 });
 </script>
+
+<style scoped>
+.text-truncate {
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+</style>

@@ -77,7 +77,7 @@ const timeline = toRef([
     designation: "Software Engineer",
   },
   {
-    year: "03/2021 - PRESENT",
+    year: "09/2023 - PRESENT",
     img: "/img/c3.png",
     location: "C3controls Ltd ",
     designation: "Software Engineer",

@@ -14,7 +14,7 @@ export const useGlobalState = createGlobalState(()=> {
         {
             name : 'Meshmorph',
             link: 'https://meshmorph.com/',
-            about:'3D | Marketplace | E-Commerce',
+            about:'3D | Multi Vendor 3D assets Marketplace | E-Commerce',
             image:'/img/meshmorph.png'
         },
         {
@@ -43,7 +43,7 @@ export const useGlobalState = createGlobalState(()=> {
            
         },
         {
-            name : 'Chronim Delivery and Logistics',
+            name : 'Chronim Logistics',
             link: 'https://chronimdeliveryandlogistics.com/',
             about:' JAM Stack | Web App | Logistics Provier ',
             image:'/img/chronim.png',

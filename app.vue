@@ -1,5 +1,5 @@
 <template>
-  <div :class="['h-full light', isDark ? 'dark' : '']">
+  <div :class="['h-full ', isDark ? 'dark' : 'light']">
     <NuxtLayout>
       <NuxtPage />
     </NuxtLayout>
