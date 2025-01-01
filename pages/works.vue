@@ -8,11 +8,11 @@
       class="rounded-2xl bg-white p-6 shadow dark:bg-black dark:shadow-dark lg:col-span-2 lg:p-10"
     >
       <div class="">
-        <h2
+        <h1
           class="text-3xl font-semibold leading-tight text-dark dark:text-light lg:text-[40px] lg:leading-tight"
         >
           Check Out My Latest <span class="text-primary">Projects</span>
-        </h2>
+        </h1>
         <p class="mt-4 text-lg text-muted dark:text-light/70">
           I am a Full Stack Developer with a demonstrated history of building
           scalable web and mobile applications for diverse industries.
