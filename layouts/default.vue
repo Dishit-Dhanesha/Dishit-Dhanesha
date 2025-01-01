@@ -19,6 +19,7 @@
             src="/img/gradient-1.png"
             height="1088"
             width="1088"
+            format="webp"
             alt="Gradient"
           />
         </div>
@@ -30,16 +31,29 @@
             height="1088"
             width="1088"
             src="/img/gradient-2.png"
+            format="webp"
             alt="Gradient"
           />
         </div>
 
         <div class="move-with-cursor fixed left-[10%] top-[20%] -z-10">
-          <NuxtImg src="/img/object-3d-1.png" alt="Gradient" />
+          <NuxtImg
+            height="64"
+            width="64"
+            format="webp"
+            src="/img/object-3d-1.png"
+            alt="Object"
+          />
         </div>
 
         <div class="move-with-cursor fixed bottom-[20%] right-[10%] -z-10">
-          <NuxtImg src="/img/object-3d-2.png" alt="Gradient" />
+          <NuxtImg
+            src="/img/object-3d-2.png"
+            height="64"
+            width="64"
+            format="webp"
+            alt="Object"
+          />
         </div>
       </div>
     </div>

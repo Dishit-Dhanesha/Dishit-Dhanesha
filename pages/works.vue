@@ -37,6 +37,8 @@
                   :src="i.image"
                   :alt="i.name"
                   format="webp"
+                  height="1330"
+                  width="851"
                 />
 
                 <NuxtLink

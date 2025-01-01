@@ -190,6 +190,7 @@
             <div class="">
               <button
                 type="button"
+                name="ColorPreference"
                 class="hs-dark-mode group flex h-10 w-10 items-center justify-center rounded-lg text-center font-medium text-dark transition hover:bg-light hs-dark-mode-active:hidden dark:text-gray-400 dark:hover:text-gray-500"
                 data-hs-theme-click-value="dark"
                 @click="() => changeColorPreference('dark')"

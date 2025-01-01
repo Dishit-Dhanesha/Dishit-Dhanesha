@@ -39,13 +39,15 @@ export const useGlobalState = createGlobalState(()=> {
             name : 'Dr Vimal Eye Hospital',
             link: 'https://www.drvimalseye.hospital/',
             about:' JAM Stack | Website ',
-            image:'/img/vimal.png'
+            image:'/img/vimal.png',
+           
         },
         {
             name : 'Chronim Delivery and Logistics',
             link: 'https://chronimdeliveryandlogistics.com/',
             about:' JAM Stack | Web App | Logistics Provier ',
-            image:'/img/chronim.png'
+            image:'/img/chronim.png',
+           
         }
     ])
     function changeColorPreference(color: string) {
