@@ -8,6 +8,8 @@
         src="/img/profile/image.webp"
         loading="lazy"
         alt="Profile Picture"
+        height="1586"
+        width="1400"
         class="inline-block h-full w-full scale-110 object-contain object-bottom"
       />
     </div>

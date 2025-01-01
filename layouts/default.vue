@@ -15,13 +15,23 @@
         <div
           class="fixed -left-1/2 -top-1/2 -z-10 animate-spin-very-slow xl:-left-[20%] xl:-top-1/3"
         >
-          <NuxtImg src="/img/gradient-1.png" alt="Gradient" />
+          <NuxtImg
+            src="/img/gradient-1.png"
+            height="1088"
+            width="1088"
+            alt="Gradient"
+          />
         </div>
 
         <div
           class="fixed -right-[50%] top-[10%] -z-10 animate-spin-very-slow xl:-right-[15%] xl:top-[10%]"
         >
-          <NuxtImg src="/img/gradient-2.png" alt="Gradient" />
+          <NuxtImg
+            height="1088"
+            width="1088"
+            src="/img/gradient-2.png"
+            alt="Gradient"
+          />
         </div>
 
         <div class="move-with-cursor fixed left-[10%] top-[20%] -z-10">
