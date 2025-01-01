@@ -11,7 +11,11 @@ defineOgImageComponent("NuxtSeo", {
   colorMode: "dark",
 });
 const { colorPreference } = useGlobalState();
-
+useHead({
+  htmlAttrs: {
+    lang: "en",
+  },
+});
 const isDark = computed(() => {
   if (colorPreference.value == "dark") {
     return true;
