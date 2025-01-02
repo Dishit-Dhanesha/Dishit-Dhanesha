@@ -7,7 +7,7 @@
     >
       <AppHeader class="sticky top-0 shadow-md z-50" />
       <UContainer>
-        <NuxtPage />
+        <slot />
       </UContainer>
       <UNotifications class="w-50 text-dark" />
       <AppFooter />
