@@ -49,7 +49,6 @@
 </template>
 
 <script setup lang="ts">
-import { useClipboard } from "@vueuse/core";
 const toast = useToast();
 const openToast = (title: String) => {
   navigator.clipboard.writeText("dishitrvdhanesha@gmail.com");

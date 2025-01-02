@@ -66,48 +66,26 @@
           </h2>
           <p class="mt-2 text-muted">Happy Client</p>
         </div>
-        <!-- <div class="">
+
+        <div class="">
           <h2
             class="text-3xl font-semibold text-dark dark:text-light lg:text-[40px]"
           >
             <span>300</span>+
           </h2>
           <p class="mt-2 text-muted">Hours of Support</p>
-        </div> -->
+        </div>
       </div>
 
-      <div
+      <!-- <div
         class="relative -mt-6 hidden h-[100px] w-[100px] p-4 lg:block xl:-mt-10"
       >
-        <NuxtImg
-          src="~/assets/img/circle-text.svg"
-          alt="Circle Text"
-          loading="lazy"
-          class="absolute inset-0 h-full w-full animate-spin-slow dark:hidden"
-        />
-        <NuxtImg
-          src="~/assets/img/circle-text-light.svg"
-          alt="Circle Text"
-          loading="lazy"
-          class="absolute inset-0 hidden h-full w-full animate-spin-slow dark:block"
-        />
         <div
           class="grid h-full w-full place-content-center rounded-full bg-primary text-light"
         >
-          <svg
-            xmlns="http://www.w3.org/2000/svg"
-            viewBox="0 0 40 40"
-            fill="none"
-            stroke="currentColor"
-            stroke-linecap="round"
-            stroke-linejoin="round"
-            stroke-width="2"
-            class="h-10 w-10"
-          >
-            <path d="M20 5v30m-5-5 5 5 5-5" />
-          </svg>
+          <UIcon name="i-line-md-file-download-filled" class="w-9 h-9" />
         </div>
-      </div>
+      </div> -->
     </div>
   </div>
 </template>
