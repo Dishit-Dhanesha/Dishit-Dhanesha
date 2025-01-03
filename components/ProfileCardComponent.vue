@@ -8,6 +8,7 @@
         src="/img/profile/image.webp"
         loading="lazy"
         alt="Profile Picture"
+        sizes="50vw sm:20vw md:400px"
         height="1586"
         width="1400"
         class="inline-block h-full w-full scale-110 object-contain object-bottom"
