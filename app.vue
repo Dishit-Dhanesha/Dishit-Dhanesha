@@ -28,3 +28,8 @@ const isDark = computed(() => {
   }
 });
 </script>
+<style>
+html {
+  scroll-behavior: smooth;
+}
+</style>

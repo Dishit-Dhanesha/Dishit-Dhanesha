@@ -24,6 +24,5 @@ export default defineNuxtConfig({
     '@vueuse/nuxt',
     '@nuxt/ui',
     '@nuxtjs/seo',
-    '@morev/vue-transitions/nuxt',
   ]
 })
