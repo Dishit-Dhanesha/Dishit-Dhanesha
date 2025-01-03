@@ -1,7 +1,9 @@
 <template>
   <main class="grid grid-cols-1 gap-4 lg:grid-cols-3 lg:gap-6">
     <!-- Intro -->
-    <ProfileCardComponent />
+    <div class="mx-auto top-4 gap-4">
+      <ProfileCardComponent class="lg:sticky top-[80px] shadow-md" />
+    </div>
     <!-- about -->
     <div
       class="rounded-2xl bg-white p-6 shadow dark:bg-black dark:shadow-dark lg:col-span-2 lg:p-10"

@@ -29,7 +29,8 @@
         </span>
         having
         <span class="font-semibold text-dark dark:text-white"> 5+ years </span>
-        of Experiences with multiple technologies.
+        of Experiences with multiple technologies. I am versatile with multiple
+        technologies and continuously seek to learn and innovate.
       </p>
 
       <!-- CTA buttons -->

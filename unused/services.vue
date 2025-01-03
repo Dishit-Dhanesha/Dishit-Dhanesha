@@ -6,7 +6,9 @@ import ServicesComponent from "~/components/Services/servicesComponent.vue";
 <template>
   <main class="grid grid-cols-1 gap-4 lg:grid-cols-3 lg:gap-6">
     <!-- Intro -->
-    <ProfileCardComponent />
+    <div class="mx-auto gap-4">
+      <ProfileCardComponent class="lg:sticky top-20 shadow-md" />
+    </div>
 
     <!-- Services -->
     <div
