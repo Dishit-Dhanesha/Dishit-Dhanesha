@@ -21,7 +21,6 @@
             width="1088"
             format="webp"
             alt="Gradient"
-            loading="lazy"
           />
         </div>
 
@@ -33,7 +32,6 @@
             width="1088"
             src="/img/gradient-2.webp"
             format="webp"
-            loading="lazy"
             alt="Gradient"
           />
         </div>
