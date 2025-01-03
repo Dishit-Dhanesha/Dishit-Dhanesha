@@ -27,7 +27,7 @@
 
           <!-- Navigation menu -->
           <ul
-            class="hidden flex-1 flex-wrap items-center justify-center lg:flex"
+            class="hidden flex-1 flex-wrap items-center justify-center lg:flex gap-1"
           >
             <li
               :class="`group/menu-item ${activeUrl == 'index' ? 'active' : ''}`"
