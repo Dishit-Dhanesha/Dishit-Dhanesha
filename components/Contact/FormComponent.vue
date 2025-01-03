@@ -12,7 +12,7 @@
             for="name"
             class="mb-2 block text-sm font-medium text-dark dark:text-light"
           >
-            Name
+            Name <span style="color: red"> *</span>
           </label>
           <input
             required
@@ -28,7 +28,7 @@
             for="email"
             class="mb-2 block text-sm font-medium text-dark dark:text-light"
           >
-            Email
+            Email <span style="color: red"> *</span>
           </label>
           <input
             required
@@ -47,7 +47,7 @@
             for="subject"
             class="mb-2 block text-sm font-medium text-dark dark:text-light"
           >
-            Subject
+            Subject <span style="color: red"> *</span>
           </label>
           <input
             required
@@ -65,7 +65,7 @@
           for="message"
           class="mb-2 block text-sm font-medium text-dark dark:text-light"
         >
-          Message
+          Message <span style="color: red"> *</span>
         </label>
 
         <textarea
@@ -102,4 +102,6 @@
     </form>
   </div>
 </template>
+
+
 
