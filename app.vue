@@ -1,5 +1,7 @@
 <template>
   <div :class="['h-full ', isDark ? 'dark' : 'light']">
+    <NuxtLoadingIndicator />
+
     <NuxtLayout>
       <NuxtPage />
     </NuxtLayout>
