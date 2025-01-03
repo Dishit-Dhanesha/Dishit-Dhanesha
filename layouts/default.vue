@@ -6,14 +6,14 @@
       class="mx-auto flex max-w-screen-2xl flex-col justify-between gap-4 p-4 lg:gap-6 lg:p-6"
     >
       <AppHeader class="sticky top-0 shadow-md z-50" />
-      <transition-fade :duration="100">
+      <transition-fade :duration="200">
         <slot />
       </transition-fade>
       <UNotifications class="w-50 text-dark" />
       <AppFooter />
       <div class="shapes">
         <div
-          class="fixed -left-1/2 -top-1/2 -z-10 animate-spin-very-slow xl:-left-[20%] xl:-top-1/3"
+          class="fixed -left-1/2 -top-1/2 -z-5 animate-spin-very-slow xl:-left-[20%] xl:-top-1/3"
         >
           <NuxtImg
             src="/img/gradient-1.png"
@@ -26,7 +26,7 @@
         </div>
 
         <div
-          class="fixed -right-[50%] top-[10%] -z-10 animate-spin-very-slow xl:-right-[15%] xl:top-[10%]"
+          class="fixed -right-[50%] top-[10%] -z-5 animate-spin-very-slow xl:-right-[15%] xl:top-[10%]"
         >
           <NuxtImg
             height="1088"
