@@ -6,9 +6,7 @@
       class="mx-auto flex max-w-screen-2xl flex-col justify-between gap-4 p-4 lg:gap-6 lg:p-6"
     >
       <AppHeader class="sticky top-0 shadow-md z-50" />
-      <UContainer>
-        <slot />
-      </UContainer>
+      <slot />
       <UNotifications class="w-50 text-dark" />
       <AppFooter />
       <div class="shapes">
@@ -35,28 +33,6 @@
             format="webp"
             loading="lazy"
             alt="Gradient"
-          />
-        </div>
-
-        <div class="move-with-cursor fixed left-[10%] top-[20%] -z-10">
-          <NuxtImg
-            height="64"
-            width="64"
-            format="webp"
-            src="/img/object-3d-1.png"
-            alt="Object"
-            loading="lazy"
-          />
-        </div>
-
-        <div class="move-with-cursor fixed bottom-[20%] right-[10%] -z-10">
-          <NuxtImg
-            src="/img/object-3d-2.png"
-            height="64"
-            width="64"
-            format="webp"
-            alt="Object"
-            loading="lazy"
           />
         </div>
       </div>
