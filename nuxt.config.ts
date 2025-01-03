@@ -7,6 +7,7 @@ export default defineNuxtConfig({
     url: 'https://dishit.royalegroup.io', 
     name: 'Dishit Dhanesha' 
     }, 
+    
   nitro: {
     compressPublicAssets: true,
     minify: true
@@ -22,6 +23,7 @@ export default defineNuxtConfig({
     '@nuxt/image',
     '@vueuse/nuxt',
     '@nuxt/ui',
-    '@nuxtjs/seo'
+    '@nuxtjs/seo',
+    '@morev/vue-transitions/nuxt',
   ]
 })
