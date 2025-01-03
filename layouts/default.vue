@@ -16,7 +16,7 @@
           class="fixed -left-1/2 -top-1/2 -z-5 animate-spin-very-slow xl:-left-[20%] xl:-top-1/3"
         >
           <NuxtImg
-            src="/img/gradient-1.png"
+            src="/img/gradient-1.webp"
             height="1088"
             width="1088"
             format="webp"
@@ -31,7 +31,7 @@
           <NuxtImg
             height="1088"
             width="1088"
-            src="/img/gradient-2.png"
+            src="/img/gradient-2.webp"
             format="webp"
             loading="lazy"
             alt="Gradient"
