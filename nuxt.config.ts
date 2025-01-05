@@ -17,6 +17,9 @@ export default defineNuxtConfig({
   image: {    
     format: ['webp']
   },
+  gtag: {
+    id: 'G-ZLWCQYSXKN'
+  },
   modules: [
     '@nuxtjs/color-mode',
     '@nuxt/icon',
@@ -25,5 +28,6 @@ export default defineNuxtConfig({
     '@nuxt/ui',
     '@nuxtjs/seo',
     '@morev/vue-transitions/nuxt',
+    'nuxt-gtag'
   ]
 })
