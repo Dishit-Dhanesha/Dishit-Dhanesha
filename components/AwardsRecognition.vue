@@ -12,7 +12,7 @@
           class="flex flex-col gap-4 md:col-span-2 md:flex-row md:items-center md:gap-6"
         >
           <div
-            class="grid h-10 w-10 shrink-0 place-content-center rounded-lg bg-white transition group-hover:bg-light dark:bg-dark dark:group-hover:bg-white"
+            class="grid h-10 w-10 shrink-0 place-content-center rounded-lg bg-white transition group-hover:bg-light dark:bg-white dark:group-hover:bg-white"
           >
             <NuxtImg
               :src="i.image"
@@ -48,7 +48,7 @@
             />
           </svg>
           <h5 class="font-medium leading-tight text-dark dark:text-light">
-            Participant
+            Earned
           </h5>
         </div>
 
@@ -79,6 +79,12 @@
 
 <script setup lang="ts">
 const awards = toRef([
+   {
+    name: "AWS Solutions Architect - Associate ",
+    link: "Hhhhh",
+    year: "2022",
+    image: "/img/AWS.svg",
+  },
   {
     name: "Javascript Algorithms and Data Structures - freeCodeCamp",
     link: "Hhhhh",
@@ -103,5 +109,6 @@ const awards = toRef([
     year: "2022",
     image: "/img/AWS.svg",
   },
+  
 ]);
 </script>
