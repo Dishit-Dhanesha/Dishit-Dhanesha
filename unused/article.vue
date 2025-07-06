@@ -368,6 +368,7 @@ import { NuxtImg } from "#build/components";
           </div>
 
           <button
+            aria-label="submit"
             type="submit"
             class="inline-flex w-full items-center justify-center gap-x-2 rounded-lg border border-transparent bg-primary px-6 py-4 text-center font-medium text-white transition hover:bg-blue-600 focus:outline-none focus:ring disabled:pointer-events-none disabled:opacity-50"
           >

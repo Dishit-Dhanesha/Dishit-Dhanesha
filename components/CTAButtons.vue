@@ -24,6 +24,7 @@
       type="button"
       @click="() => openToast('Email Copied')"
       data-clipboard-text="shams.sujon.01@gmail.com"
+      aria-label="copy email"
       data-clipboard-action="copy"
       data-clipboard-success-text="Copied to clipboard"
       class="h-14 js-clipboard hs-tooltip inline-flex items-center gap-x-2 rounded-lg border border-light bg-transparent px-6 py-4 font-medium text-dark hover:text-dark transition [--trigger:focus] hover:bg-light focus:outline-none focus:ring disabled:pointer-events-none disabled:opacity-50 dark:border-dark dark:text-light/70 dark:hover:bg-dark dark:hover:text-white"
@@ -59,4 +60,3 @@ const openToast = (title: String) => {
   });
 };
 </script>
-

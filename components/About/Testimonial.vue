@@ -7,6 +7,7 @@
 
       <div class="flex items-center gap-2">
         <button
+          aria-label="Expand"
           class="review-carousel-button-prev grid h-9 w-9 place-content-center rounded-lg border border-muted/30 text-muted transition hover:border-primary hover:text-primary"
         >
           <svg
@@ -23,6 +24,7 @@
           </svg>
         </button>
         <button
+          aria-label="collapse"
           class="review-carousel-button-next grid h-9 w-9 place-content-center rounded-lg border border-muted/30 text-muted transition hover:border-primary hover:text-primary"
         >
           <svg
@@ -131,7 +133,7 @@
   </div>
 </template>
 
-<script setup  lang="ts">
+<script setup lang="ts">
 const reviews = toRef([
   {
     review:

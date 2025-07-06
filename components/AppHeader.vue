@@ -191,6 +191,7 @@
               <button
                 type="button"
                 name="ColorPreference"
+                aria-label="Color Preference"
                 class="hs-dark-mode group flex h-10 w-10 items-center justify-center rounded-lg text-center font-medium text-dark transition hover:bg-light hs-dark-mode-active:hidden dark:text-gray-400 dark:hover:text-gray-500"
                 data-hs-theme-click-value="dark"
                 @click="() => changeColorPreference('dark')"
@@ -210,6 +211,7 @@
                 type="button"
                 class="hs-dark-mode group hidden h-10 w-10 items-center justify-center rounded-lg text-center font-medium text-dark transition hover:bg-light hs-dark-mode-active:flex dark:text-[#FD7E41] dark:hover:bg-dark dark:hover:text-[#FD7E41]"
                 data-hs-theme-click-value="light"
+                aria-label="light"
                 @click="() => changeColorPreference('light')"
               >
                 <svg
@@ -457,6 +459,7 @@
           <button
             v-if="colorPreference == 'light'"
             data-hs-theme-click-value="dark"
+            aria-label="dark"
             class="hs-dark-mode flex w-full items-center justify-start gap-2 rounded-lg px-4 py-2 text-center text-sm text-muted transition hover:bg-light dark:hover:bg-dark hover:text-dark"
             @click="changeColorPreference('dark')"
           >
@@ -476,6 +479,7 @@
           <button
             v-if="colorPreference == 'dark'"
             data-hs-theme-click-value="light"
+            aria-label="light"
             class="hs-dark-mode w-full items-center justify-start gap-2 rounded-lg px-4 py-2 text-center text-sm text-muted transition hover:bg-light hs-dark-mode-active:flex dark:hover:bg-dark dark:hover:text-white"
             @click="changeColorPreference('light')"
           >
@@ -543,4 +547,3 @@ watch(
   { deep: true }
 );
 </script>
-
