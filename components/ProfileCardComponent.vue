@@ -149,6 +149,7 @@
         </UTooltip>
         <UTooltip text="Download Resume">
           <a
+            name="Resume Dwnload"
             color="white"
             variant="solid"
             href="/resume.pdf"
