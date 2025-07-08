@@ -2,6 +2,7 @@
   <!-- Intro -->
   <div class="rounded-2xl bg-white p-6 shadow dark:bg-black dark:shadow-dark">
     <div
+      v-show="toShow"
       class="aspect-6/4 overflow-hidden rounded-lg bg-light pt-4 text-center dark:bg-dark-2"
     >
       <NuxtImg
@@ -166,3 +167,9 @@
     </div>
   </div>
 </template>
+<script lang="ts" setup>
+defineProps({
+  toShow: Boolean,
+  default: false,
+});
+</script>
