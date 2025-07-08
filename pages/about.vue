@@ -2,7 +2,9 @@
   <main class="grid grid-cols-1 gap-4 lg:grid-cols-3 lg:gap-6 z-10">
     <!-- Intro -->
     <div class="mx-auto top-4 gap-4">
-      <ProfileCardComponent class="lg:sticky top-[80px] shadow-md" />
+      <ClientOnly>
+        <ProfileCardComponent class="lg:sticky top-[80px] shadow-md" />
+      </ClientOnly>
     </div>
     <!-- about -->
     <div

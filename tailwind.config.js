@@ -72,5 +72,7 @@ module.exports = {
       },
     },
   },
-  plugins: [require('tailwindcss-motion')],
+    darkMode: 'class',
+  plugins: [require('tailwindcss-motion') , require('@tailwindcss/typography')],
+   
 };
